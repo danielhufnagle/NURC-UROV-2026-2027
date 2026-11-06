@@ -3305,20 +3305,12 @@
 		(uuid "9645677b-0d9a-43ee-bac6-c14b690c54d4")
 	)
 	(no_connect
-		(at 215.9 132.08)
-		(uuid "96b0a6cd-2834-46f6-ba4d-76c5775e7f48")
-	)
-	(no_connect
 		(at 175.26 114.3)
 		(uuid "96d8abee-891e-4556-99c3-37e60b47ff51")
 	)
 	(no_connect
 		(at 175.26 109.22)
 		(uuid "9e52201c-1abc-45ad-9403-f1662fe577f8")
-	)
-	(no_connect
-		(at 215.9 127)
-		(uuid "9fe3707e-9654-4879-b8fc-7dd6a2527179")
 	)
 	(no_connect
 		(at 215.9 119.38)
@@ -3335,10 +3327,6 @@
 	(no_connect
 		(at 175.26 86.36)
 		(uuid "b046a104-a47b-4d31-807c-4b9579a29cb1")
-	)
-	(no_connect
-		(at 215.9 129.54)
-		(uuid "b0834642-f338-4a0c-920d-d01d721c0d34")
 	)
 	(no_connect
 		(at 215.9 99.06)
@@ -3371,6 +3359,16 @@
 	(no_connect
 		(at 215.9 139.7)
 		(uuid "ff333975-ecd9-4297-b486-99d98722ed76")
+	)
+	(wire
+		(pts
+			(xy 215.9 132.08) (xy 229.87 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0039e6b6-dec6-4fe4-8780-17d2462defad")
 	)
 	(wire
 		(pts
@@ -3424,6 +3422,26 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 147.32) (xy 251.46 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cc87667-0483-425f-9458-b3a181663f54")
+	)
+	(wire
+		(pts
+			(xy 215.9 129.54) (xy 229.87 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f5e6ece-be6e-4585-80f8-4614e3099fdc")
+	)
+	(wire
+		(pts
 			(xy 175.26 59.69) (xy 172.72 59.69)
 		)
 		(stroke
@@ -3431,6 +3449,16 @@
 			(type default)
 		)
 		(uuid "105dfe06-8f8b-4f0c-b2b3-a5de120d2540")
+	)
+	(wire
+		(pts
+			(xy 240.03 140.97) (xy 251.46 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12124ef8-d345-478b-80c8-8d9ff3b61d06")
 	)
 	(wire
 		(pts
@@ -3641,6 +3669,16 @@
 			(type default)
 		)
 		(uuid "4b865dbf-bec3-4fea-9e5a-d4b2e4dac4e8")
+	)
+	(wire
+		(pts
+			(xy 240.03 134.62) (xy 251.46 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4be35c6f-4a09-432d-864d-acdb973eead3")
 	)
 	(wire
 		(pts
@@ -3994,6 +4032,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 127) (xy 229.87 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3029bfd-a865-4161-8d6b-9df0051ae23d")
+	)
+	(wire
+		(pts
 			(xy 195.58 60.96) (xy 196.85 60.96)
 		)
 		(stroke
@@ -4262,6 +4310,16 @@
 		)
 		(uuid "44dc1cb4-66d5-43c7-b3c1-9012f981a51a")
 	)
+	(label "PWM(T4C3)"
+		(at 229.87 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4a6b1d1c-bcb9-487d-b9f3-d1e618533ca3")
+	)
 	(label "LDO 3V3"
 		(at 196.85 58.42 0)
 		(effects
@@ -4292,6 +4350,16 @@
 		)
 		(uuid "65723082-7491-4aad-a48e-0c107e97d0a1")
 	)
+	(label "PWM(T4C2)"
+		(at 229.87 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "73348582-e30c-471e-964e-afc603b58332")
+	)
 	(label "PWM(T3C1)"
 		(at 229.87 83.82 180)
 		(effects
@@ -4321,6 +4389,16 @@
 			(justify right bottom)
 		)
 		(uuid "9639443e-c8b1-4817-ab6f-243bf47060f2")
+	)
+	(label "PWM(T4C1)"
+		(at 229.87 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aea16607-bfc9-43f0-851b-1ff5bcd058ef")
 	)
 	(label "PWM(T2C1)"
 		(at 240.03 68.58 0)
@@ -4362,6 +4440,16 @@
 		)
 		(uuid "c0548734-2706-4e36-babd-0af1565de4e0")
 	)
+	(label "PWM(T4C1)"
+		(at 240.03 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d254d28e-b69a-4692-bf39-8807bfba3561")
+	)
 	(label "PWM(T2C3)"
 		(at 240.03 81.28 0)
 		(effects
@@ -4392,6 +4480,16 @@
 		)
 		(uuid "d98f2bb2-ba68-41ab-9a26-36e7e7d2a912")
 	)
+	(label "PWM(T4C2)"
+		(at 240.03 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc232237-b7f2-4a33-a324-33f535fc9386")
+	)
 	(label "LDO 3V3"
 		(at 280.67 40.64 180)
 		(effects
@@ -4401,6 +4499,16 @@
 			(justify right bottom)
 		)
 		(uuid "e5e3d606-d298-4cb6-b68d-8ff55480efe8")
+	)
+	(label "PWM(T4C3)"
+		(at 240.03 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ebc79965-220a-41c9-91ce-1e9d99e12528")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
@@ -5274,6 +5382,85 @@
 			(project "Controller"
 				(path "/232e5e25-00de-4ec5-9860-3156f6d32e57"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 256.54 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4cfab84b-1ccc-4cfc-b73f-25f4e4d3ae9d")
+		(property "Reference" "J11"
+			(at 257.81 133.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 257.81 135.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 256.54 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b235ced8-7546-4591-9209-04fe6349e18d")
+		)
+		(instances
+			(project "Controller"
+				(path "/232e5e25-00de-4ec5-9860-3156f6d32e57"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -6666,6 +6853,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 256.54 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aac51fd3-e236-4122-a050-b69ed0f5c95b")
+		(property "Reference" "J13"
+			(at 257.81 146.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 257.81 148.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 256.54 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab6e4bb9-ab5f-4ff9-9407-0eb535c2d3a0")
+		)
+		(instances
+			(project "Controller"
+				(path "/232e5e25-00de-4ec5-9860-3156f6d32e57"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 175.26 45.72 0)
 		(unit 1)
@@ -7379,6 +7645,85 @@
 			(project "Controller"
 				(path "/232e5e25-00de-4ec5-9860-3156f6d32e57"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 256.54 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0a27e69-01d2-4648-b2d2-904ff8564c57")
+		(property "Reference" "J12"
+			(at 257.81 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 257.81 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 256.54 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "02e3a277-1096-4b7a-952e-fc4f66d74343")
+		)
+		(instances
+			(project "Controller"
+				(path "/232e5e25-00de-4ec5-9860-3156f6d32e57"
+					(reference "J12")
 					(unit 1)
 				)
 			)
