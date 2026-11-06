@@ -3676,6 +3676,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Bypass for STM32 VDD pins"
+		(exclude_from_sim no)
+		(at 217.424 21.844 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1461db83-e2e1-4318-bba0-9415be3cc267")
+	)
 	(junction
 		(at 207.01 24.13)
 		(diameter 0)
