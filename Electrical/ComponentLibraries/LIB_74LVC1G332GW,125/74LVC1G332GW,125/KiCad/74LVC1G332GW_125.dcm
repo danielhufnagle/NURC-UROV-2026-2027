@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74LVC1G332GW,125
+D 74LVC1G332 - Single 3-input OR gate@en-us
+K
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G332.pdf
+$ENDCMP
+#
+#End Doc Library
