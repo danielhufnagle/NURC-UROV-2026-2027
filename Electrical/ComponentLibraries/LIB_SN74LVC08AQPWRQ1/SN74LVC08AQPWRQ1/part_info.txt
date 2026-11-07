@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=SN74LVC08AQPWRQ1
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=14
+Version=2.1
+Released=2018-02-17 22:15:00
+Downloaded=2026-11-06 23:59:10
+3D=Y

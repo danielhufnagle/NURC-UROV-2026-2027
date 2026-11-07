@@ -1,0 +1,8 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "KiCad") (type "KiCad") (uri "/Users/danielhufnagle/Documents/UROV/NURC-UROV-2026-2027/Electrical/ComponentLibraries/LIB_SN74LVC08AQPWRQ1/SN74LVC08AQPWRQ1/KiCad.pretty") (options "") (descr ""))
+	(lib (name "footprints") (type "KiCad") (uri "/Users/danielhufnagle/Documents/UROV/NURC-UROV-2026-2027/Electrical/ComponentLibraries/LIB_SN74LVC08AQPWRQ1/SN74LVC08AQPWRQ1/KiCad/footprints.pretty") (options "") (descr ""))
+	(lib (name "KiCad") (type "KiCad") (uri "/Users/danielhufnagle/Documents/UROV/NURC-UROV-2026-2027/Electrical/ComponentLibraries/LIB_SN74LVC08AQPWRQ1/SN74LVC08AQPWRQ1/KiCad.pretty") (options "") (descr ""))
+	(lib (name "ControllerLib") (type "KiCad") (uri "${KIPRJMOD}/ControllerLib.pretty") (options "") (descr ""))
+	(lib (name "KiCad") (type "KiCad") (uri "/Users/danielhufnagle/Documents/UROV/NURC-UROV-2026-2027/Electrical/ComponentLibraries/LIB_SN74LVC08AQPWRQ1/SN74LVC08AQPWRQ1/KiCad.pretty") (options "") (descr ""))
+)
