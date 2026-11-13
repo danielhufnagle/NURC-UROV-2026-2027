@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model Q36SR12017NRFA
+#/2289245/2021058/2.50/8/4/Power Supply
+DEF Q36SR12017NRFA PS 0 30 Y Y 1 F N
+F0 "PS" 1150 300 50 H V L CNN
+F1 "Q36SR12017NRFA" 1150 200 50 H V L CNN
+F2 "Q36SR12017NRFA" 1150 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/Q36SR12017NRFA.pdf" 1150 0 50 H I L CNN
+F4 "Isolated DC/DC Converters DC/DC Converter, 1/4 Brick, 12Vout, 17A" 1150 -100 50 H I L CNN "Description"
+F5 "12.7" 1150 -200 50 H I L CNN "Height"
+F6 "108-Q36SR12017NRFA" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=108-Q36SR12017NRFA" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Delta Electronics" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "Q36SR12017NRFA" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X +VIN 1 0 0 200 R 50 50 0 0 P
+X ON/OFF 2 0 -100 200 R 50 50 0 0 P
+X -VIN 3 0 -200 200 R 50 50 0 0 P
+X -VOUT 4 1300 -400 200 L 50 50 0 0 P
+X -SENSE 5 1300 -300 200 L 50 50 0 0 P
+X TRIM 6 1300 -200 200 L 50 50 0 0 P
+X +SENSE 7 1300 -100 200 L 50 50 0 0 P
+X +VOUT 8 1300 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
