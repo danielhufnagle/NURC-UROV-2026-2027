@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NID100-5
+D Non-Isolated PoL Module DC DC Converter 1 Output 5V 11A 10.5V - 53V Input , -30C ~ 85C
+K
+F https://www.meanwell.co.uk/power-supplies/dc-dc-power-supplies/nid100-series
+$ENDCMP
+#
+#End Doc Library
