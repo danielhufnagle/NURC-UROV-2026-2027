@@ -2286,6 +2286,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "NID100-5"
+		(exclude_from_sim no)
+		(at 233.426 74.168 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "240867d7-c600-4318-8212-1443dcd07741")
+	)
+	(text "Add 5V converter"
+		(exclude_from_sim no)
+		(at 233.934 69.342 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b79b0e4c-2fe0-4338-af58-5ea9eea4c55d")
+	)
 	(junction
 		(at 179.07 24.13)
 		(diameter 0)
@@ -2492,16 +2512,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 40.64) (xy 116.84 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80262c74-c321-4cfe-a01e-e799c1f95317")
-	)
-	(wire
-		(pts
 			(xy 123.19 48.26) (xy 133.35 48.26)
 		)
 		(stroke
@@ -2559,16 +2569,6 @@
 			(type default)
 		)
 		(uuid "b95424ff-9864-4af2-b94e-912794636c71")
-	)
-	(wire
-		(pts
-			(xy 116.84 33.02) (xy 116.84 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b975b550-7e89-4efe-90c5-cd686fd2c40f")
 	)
 	(wire
 		(pts
@@ -2680,6 +2680,16 @@
 		)
 		(uuid "009770e2-8e91-4427-98c7-0f77ce84b1bf")
 	)
+	(label "Sense-"
+		(at 116.84 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "057933b8-64bd-49a3-83a5-90cee1596683")
+	)
 	(label "CompOut"
 		(at 179.07 24.13 180)
 		(effects
@@ -2709,6 +2719,16 @@
 			(justify left bottom)
 		)
 		(uuid "20994d44-0eec-4c9d-ada1-ee90f1df088e")
+	)
+	(label "Sense+"
+		(at 116.84 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "293a3b6d-199b-4913-97f3-1b92244c83f2")
 	)
 	(label "48V"
 		(at 25.4 33.02 0)
@@ -2750,7 +2770,7 @@
 		)
 		(uuid "59c20582-afd8-485a-9b94-487afeb4f7ec")
 	)
-	(label "5VRef"
+	(label "5VConvertOut"
 		(at 222.25 33.02 0)
 		(effects
 			(font
