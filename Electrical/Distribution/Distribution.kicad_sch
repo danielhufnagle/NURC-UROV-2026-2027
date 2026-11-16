@@ -2671,6 +2671,12 @@
 		(uuid "1fff381c-1287-412e-95f8-a9e27ce48c24")
 	)
 	(junction
+		(at 245.11 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29dc402b-7021-4df2-aa39-d38608ecdb25")
+	)
+	(junction
 		(at 123.19 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2689,10 +2695,22 @@
 		(uuid "4af7c65a-1c51-48e2-b1b4-7edf06af6637")
 	)
 	(junction
+		(at 243.84 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a28c8c8-c680-4819-acd8-64748b327c92")
+	)
+	(junction
 		(at 153.67 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e2b6627-7d12-467b-af1e-9d154264e072")
+	)
+	(junction
+		(at 245.11 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8389b832-ebb3-45f3-94bc-31b615d97e79")
 	)
 	(junction
 		(at 87.63 33.02)
@@ -2701,10 +2719,34 @@
 		(uuid "89218cab-5e8b-46b2-8b3a-873cf95f0b1d")
 	)
 	(junction
+		(at 245.11 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93e952ec-3756-4333-a344-16462961d783")
+	)
+	(junction
+		(at 245.11 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b208ac07-f359-4418-867f-d0f2a8eb0416")
+	)
+	(junction
+		(at 245.11 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c293049a-a6ce-41a9-b4bb-f942a43f4947")
+	)
+	(junction
 		(at 44.45 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ccd8692d-5c49-4b58-a2ce-58c27b32df38")
+	)
+	(junction
+		(at 245.11 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d55b562d-3eb6-4b53-a0a6-4c6013dd80d7")
 	)
 	(junction
 		(at 104.14 33.02)
@@ -2729,8 +2771,22 @@
 		(uuid "37aad200-349f-4c46-8615-41178d5e18f0")
 	)
 	(no_connect
+		(at 245.11 86.36)
+		(uuid "8171b915-47eb-4b59-92a6-8aac407ece60")
+	)
+	(no_connect
 		(at 199.39 24.13)
 		(uuid "c47d6801-4a96-418c-a11c-6bee726046de")
+	)
+	(wire
+		(pts
+			(xy 245.11 58.42) (xy 245.11 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "039be012-b3fa-4cb2-9e1d-a1c0fd09deca")
 	)
 	(wire
 		(pts
@@ -2764,6 +2820,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 78.74) (xy 245.11 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ec2b5fb-4514-4add-8c34-77e51186bc27")
+	)
+	(wire
+		(pts
 			(xy 167.64 33.02) (xy 153.67 33.02)
 		)
 		(stroke
@@ -2771,6 +2837,26 @@
 			(type default)
 		)
 		(uuid "242ac8c9-262a-4ab8-bc14-d8471ff837a7")
+	)
+	(wire
+		(pts
+			(xy 245.11 68.58) (xy 245.11 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "257fed98-e58e-4a60-b35d-c7e0a0191829")
+	)
+	(wire
+		(pts
+			(xy 245.11 81.28) (xy 243.84 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2917f657-9620-4f8f-9f96-815f33caa896")
 	)
 	(wire
 		(pts
@@ -2794,6 +2880,26 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 72.39) (xy 245.11 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3720da04-4e1f-418f-9994-f5a75cb6ec12")
+	)
+	(wire
+		(pts
+			(xy 241.3 72.39) (xy 245.11 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c025775-ae45-47c6-84e5-20afdbd38047")
+	)
+	(wire
+		(pts
 			(xy 82.55 43.18) (xy 101.6 43.18)
 		)
 		(stroke
@@ -2814,6 +2920,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 71.12) (xy 245.11 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58af136d-a574-4944-bc5d-04f63f787cc8")
+	)
+	(wire
+		(pts
 			(xy 184.15 21.59) (xy 184.15 26.67)
 		)
 		(stroke
@@ -2831,6 +2947,26 @@
 			(type default)
 		)
 		(uuid "5b444b18-b126-47cc-bad7-ffa23c78223b")
+	)
+	(wire
+		(pts
+			(xy 243.84 81.28) (xy 243.84 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ba1a650-7ac2-4e45-b4fe-915b6bd6144a")
+	)
+	(wire
+		(pts
+			(xy 245.11 62.23) (xy 245.11 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f7d992a-bae7-4215-801a-5ede03bfd315")
 	)
 	(wire
 		(pts
@@ -2864,6 +3000,26 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 62.23) (xy 245.11 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b961dc3-dec2-4ff9-8dee-120958a5ca37")
+	)
+	(wire
+		(pts
+			(xy 232.41 78.74) (xy 243.84 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81f2046c-d724-4b15-b740-d9b1f844f3c4")
+	)
+	(wire
+		(pts
 			(xy 123.19 48.26) (xy 133.35 48.26)
 		)
 		(stroke
@@ -2894,6 +3050,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 63.5) (xy 245.11 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8be17fa4-7e88-45f5-9d9a-7eccc51aa5c4")
+	)
+	(wire
+		(pts
 			(xy 166.37 49.53) (xy 175.26 49.53)
 		)
 		(stroke
@@ -2911,6 +3077,16 @@
 			(type default)
 		)
 		(uuid "97822c1f-affd-4942-a6a2-5f3674d12afb")
+	)
+	(wire
+		(pts
+			(xy 232.41 88.9) (xy 245.11 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8b8e957-6693-4f1b-bd18-b385889b8b43")
 	)
 	(wire
 		(pts
@@ -2944,6 +3120,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 60.96) (xy 245.11 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c66ad7ba-6093-4fad-a265-7a93b2ee6b72")
+	)
+	(wire
+		(pts
 			(xy 137.16 26.67) (xy 142.24 26.67)
 		)
 		(stroke
@@ -2961,6 +3147,16 @@
 			(type default)
 		)
 		(uuid "d7fb8091-2c19-4d95-981b-963b871d4dd4")
+	)
+	(wire
+		(pts
+			(xy 245.11 73.66) (xy 245.11 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9ea6a90-ea7f-488f-b62d-0be63535ddbf")
 	)
 	(wire
 		(pts
@@ -3092,6 +3288,16 @@
 		)
 		(uuid "2e0dac96-15e0-4a9f-8048-f28e7909f911")
 	)
+	(label "5VOut"
+		(at 233.68 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3767aaae-c4b9-44ef-9833-d7a91186106d")
+	)
 	(label "5VRef"
 		(at 137.16 21.59 0)
 		(effects
@@ -3131,6 +3337,16 @@
 			(justify left bottom)
 		)
 		(uuid "65d722d4-daaa-4e10-ba3e-9c291b99fac6")
+	)
+	(label "12V"
+		(at 232.41 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66d29521-0f9b-4a8a-a79f-4cd0f744dc94")
 	)
 	(label "5VRef"
 		(at 208.28 17.78 0)
@@ -3181,6 +3397,16 @@
 			(justify right bottom)
 		)
 		(uuid "94bedddc-cb31-49c3-9249-89714e8e68c7")
+	)
+	(label "ConvertersOn"
+		(at 232.41 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a6a391f-5741-43d9-82e3-a2a69800788a")
 	)
 	(label "12V"
 		(at 116.84 33.02 180)
@@ -5683,7 +5909,7 @@
 	)
 	(symbol
 		(lib_id "NID100-5:NID100-5")
-		(at 218.44 62.23 0)
+		(at 245.11 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5694,7 +5920,7 @@
 		(fields_autoplaced yes)
 		(uuid "d682ee88-3942-45a2-b0e2-b1d11f8e7ba2")
 		(property "Reference" "PS2"
-			(at 242.57 76.1999 0)
+			(at 269.24 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5705,7 +5931,7 @@
 			)
 		)
 		(property "Value" "NID100-5"
-			(at 242.57 78.7399 0)
+			(at 269.24 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5716,7 +5942,7 @@
 			)
 		)
 		(property "Footprint" "UROVConverter:NID1005"
-			(at 242.57 157.15 0)
+			(at 269.24 153.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5728,7 +5954,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.meanwell.co.uk/power-supplies/dc-dc-power-supplies/nid100-series"
-			(at 242.57 257.15 0)
+			(at 269.24 253.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5740,7 +5966,7 @@
 			)
 		)
 		(property "Description" "Non-Isolated PoL Module DC DC Converter 1 Output 5V 11A 10.5V - 53V Input , -30C ~ 85C"
-			(at 218.44 62.23 0)
+			(at 245.11 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5751,7 +5977,7 @@
 			)
 		)
 		(property "Height" "27.5"
-			(at 242.57 457.15 0)
+			(at 269.24 453.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5763,7 +5989,7 @@
 			)
 		)
 		(property "Mouser Part Number" "709-NID100-5"
-			(at 242.57 557.15 0)
+			(at 269.24 553.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5775,7 +6001,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/MEAN-WELL/NID100-5?qs=u16ybLDytRY%252BLs2ghdXN4Q%3D%3D"
-			(at 242.57 657.15 0)
+			(at 269.24 653.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5787,7 +6013,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Mean Well"
-			(at 242.57 757.15 0)
+			(at 269.24 753.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5799,7 +6025,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "NID100-5"
-			(at 242.57 857.15 0)
+			(at 269.24 853.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5853,6 +6079,85 @@
 			(project "Distribution"
 				(path "/bd76a680-de3e-404c-becd-81d972c29905"
 					(reference "PS2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 241.3 72.39 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d79698b2-b7b6-4a40-89a5-87cbc84f7115")
+		(property "Reference" "#PWR011"
+			(at 234.95 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 72.3899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0f528bc6-b76e-44b4-beba-4722f6bebb55")
+		)
+		(instances
+			(project "Distribution"
+				(path "/bd76a680-de3e-404c-becd-81d972c29905"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)

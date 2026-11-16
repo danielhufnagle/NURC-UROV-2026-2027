@@ -653,7 +653,7 @@
         "uuid": "bd76a680-de3e-404c-becd-81d972c29905"
       }
     ],
-    "used_designators": "PS2",
+    "used_designators": "#PWR11,PS2",
     "variants": []
   },
   "sheets": [
