@@ -1078,146 +1078,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -2922,7 +2782,7 @@
 		(at 240.03 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e3af3ce5-12dc-4402-8e0e-d9abe0281f32")
+		(uuid "e2a91ddb-e772-4b70-aec5-702ed6cbd1e1")
 	)
 	(junction
 		(at 238.76 62.23)
@@ -3302,7 +3162,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 88.9) (xy 245.11 88.9)
+			(xy 232.41 88.9) (xy 240.03 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3312,13 +3172,13 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 88.9) (xy 240.03 88.9)
+			(xy 240.03 88.9) (xy 245.11 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b8b8e957-6693-4f1b-bd18-b385889b8b43")
+		(uuid "a8919c04-f4e8-43f0-80aa-a052d5a9c708")
 	)
 	(wire
 		(pts
@@ -3734,7 +3594,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 88.5952 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -4059,7 +3919,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1k"
 			(at 146.05 17.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4294,88 +4154,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 240.03 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2663c92b-b1af-469e-aa29-78aaaabf1bfa")
-		(property "Reference" "R10"
-			(at 242.57 91.4399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 242.57 93.9799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.252 92.71 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 240.03 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bd43c95c-63ce-4603-99b2-e5a2ac6e24da")
-		)
-		(pin "2"
-			(uuid "d31190f3-1c62-4f35-b356-02952659ebad")
-		)
-		(instances
-			(project "Distribution"
-				(path "/bd76a680-de3e-404c-becd-81d972c29905"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 44.45 29.21 180)
 		(unit 1)
@@ -4409,7 +4187,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 43.4848 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -4491,7 +4269,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 222.25 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -4966,7 +4744,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 224.79 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5282,7 +5060,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "50k"
 			(at 171.45 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5363,7 +5141,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "7k"
 			(at 125.73 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5527,7 +5305,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "5k"
 			(at 125.73 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5687,7 +5465,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 181.61 19.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5857,7 +5635,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 218.1352 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5926,7 +5704,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1k"
 			(at 146.05 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5979,6 +5757,88 @@
 			(project "Distribution"
 				(path "/bd76a680-de3e-404c-becd-81d972c29905"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 240.03 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fa99e7a-2c8f-4200-b054-5532a0b9e891")
+		(property "Reference" "R10"
+			(at 242.57 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 242.57 93.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.046 92.964 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 240.03 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "47559cbf-c6f2-4701-a772-599354e62c8c")
+		)
+		(pin "1"
+			(uuid "c676da36-c5d5-4ac6-b97a-b95d720bb210")
+		)
+		(instances
+			(project "Distribution"
+				(path "/bd76a680-de3e-404c-becd-81d972c29905"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -6170,7 +6030,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 185.42 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7092,7 +6952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 229.5652 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7163,7 +7023,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "5k"
 			(at 140.97 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
