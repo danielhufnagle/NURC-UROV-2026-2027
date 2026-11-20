@@ -3753,7 +3753,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "UROVConverter:SOIC127P599X175-8N"
 			(at 162.56 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -3929,7 +3929,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 146.304 20.574 90)
 			(hide yes)
 			(show_name no)
@@ -4009,7 +4009,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "UROVConverter:SOIC127P599X175-8N"
 			(at 191.77 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -4258,7 +4258,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Thermistor_NTC_US"
+		(property "Value" "Thermistor NTC 10k"
 			(at 224.79 46.0374 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4755,7 +4755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 223.266 37.084 90)
 			(hide yes)
 			(show_name no)
@@ -5070,7 +5070,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 171.196 34.036 90)
 			(hide yes)
 			(show_name no)
@@ -5152,7 +5152,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 124.206 44.704 90)
 			(hide yes)
 			(show_name no)
@@ -5316,7 +5316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 124.206 52.324 90)
 			(hide yes)
 			(show_name no)
@@ -5476,7 +5476,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 180.086 18.034 90)
 			(hide yes)
 			(show_name no)
@@ -5714,7 +5714,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 146.304 25.654 90)
 			(hide yes)
 			(show_name no)
@@ -5796,7 +5796,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 241.046 92.964 90)
 			(hide yes)
 			(show_name no)
@@ -6041,7 +6041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 183.896 40.894 90)
 			(hide yes)
 			(show_name no)
@@ -6279,7 +6279,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "UROVConverter:SOIC127P599X175-8N"
 			(at 210.82 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -7034,7 +7034,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 139.446 44.704 90)
 			(hide yes)
 			(show_name no)
