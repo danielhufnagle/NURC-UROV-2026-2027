@@ -2305,6 +2305,12 @@
 		(uuid "457aea51-5990-4778-86bc-1cde7edc365c")
 	)
 	(junction
+		(at 22.86 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c610e36-ec15-43f7-a3b7-263dc8030b0e")
+	)
+	(junction
 		(at 91.44 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2347,13 +2353,13 @@
 		(uuid "8b36be7a-c63a-4f4f-bc2a-cc95419f9ec2")
 	)
 	(junction
-		(at 116.84 62.23)
+		(at 118.11 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd277d76-84ed-4197-946c-6a8fe5fe35c7")
 	)
 	(junction
-		(at 266.7 31.75)
+		(at 254 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be0143fb-eff0-42ba-a0f4-80538313764d")
@@ -2414,7 +2420,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 62.23) (xy 127 62.23)
+			(xy 118.11 62.23) (xy 128.27 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2454,7 +2460,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 59.69) (xy 34.29 59.69)
+			(xy 15.24 59.69) (xy 34.29 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2504,7 +2510,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 31.75) (xy 34.29 31.75)
+			(xy 15.24 31.75) (xy 22.86 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2544,7 +2550,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 54.61) (xy 24.13 59.69)
+			(xy 15.24 54.61) (xy 15.24 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2554,7 +2560,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 31.75) (xy 279.4 31.75)
+			(xy 254 30.48) (xy 266.7 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2684,6 +2690,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 54.61) (xy 255.27 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "775c2784-fd9c-4007-87b3-08f04fa2711a")
+	)
+	(wire
+		(pts
 			(xy 153.67 63.5) (xy 153.67 69.85)
 		)
 		(stroke
@@ -2714,7 +2730,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 83.82) (xy 266.7 83.82)
+			(xy 243.84 82.55) (xy 254 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2744,6 +2760,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 31.75) (xy 34.29 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c310bf1-8eff-4bbe-86a6-e4e0617b8800")
+	)
+	(wire
+		(pts
 			(xy 154.94 31.75) (xy 156.21 31.75)
 		)
 		(stroke
@@ -2751,16 +2777,6 @@
 			(type default)
 		)
 		(uuid "9d03a9b7-7404-43c7-a758-8c6dbc0ea2f0")
-	)
-	(wire
-		(pts
-			(xy 200.66 26.67) (xy 207.01 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fee450f-c15f-4270-8f15-5befe63fd79b")
 	)
 	(wire
 		(pts
@@ -2814,7 +2830,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 29.21) (xy 24.13 31.75)
+			(xy 15.24 29.21) (xy 15.24 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2972,16 +2988,6 @@
 		)
 		(uuid "0cd1e8c2-c3c2-4a19-89d7-82a66c8460e0")
 	)
-	(label "48V"
-		(at 207.01 26.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0e61abc9-10a1-4577-b805-0c14ce9feb7d")
-	)
 	(label "5VRef"
 		(at 195.58 34.29 0)
 		(effects
@@ -2993,7 +2999,7 @@
 		(uuid "126864d6-ee5f-4ea1-a92c-5d6d197bc5f7")
 	)
 	(label "CompOut1"
-		(at 256.54 83.82 0)
+		(at 243.84 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3003,7 +3009,7 @@
 		(uuid "154e800d-6fc4-49ad-b39a-ba413bdcb6a8")
 	)
 	(label "~5Vin2"
-		(at 127 62.23 180)
+		(at 128.27 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3023,7 +3029,7 @@
 		(uuid "1859c401-97f3-43ab-a415-29c921ba2757")
 	)
 	(label "12V1"
-		(at 274.32 71.12 0)
+		(at 261.62 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3083,7 +3089,7 @@
 		(uuid "57cf146b-3d3a-40be-882c-f26ab2088b4b")
 	)
 	(label "5VRef"
-		(at 279.4 31.75 180)
+		(at 266.7 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3092,8 +3098,18 @@
 		)
 		(uuid "5a85c730-19dc-49f4-a57f-7a7456ef999a")
 	)
+	(label "48V"
+		(at 26.67 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63add5fe-25ae-4d67-8e49-dd4ae5236812")
+	)
 	(label "12V1"
-		(at 266.7 24.13 0)
+		(at 254 22.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3101,6 +3117,16 @@
 			(justify left bottom)
 		)
 		(uuid "670fc40c-bf4b-4411-92bb-53f7ac0d1dc1")
+	)
+	(label "48V"
+		(at 26.67 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6dc4c6ee-ea0f-4b77-b5b1-e58c0a340ec3")
 	)
 	(label "Sense-1"
 		(at 106.68 39.37 180)
@@ -3113,7 +3139,7 @@
 		(uuid "765f8eba-4e75-4e07-bef2-04776b1fd445")
 	)
 	(label "12V2"
-		(at 116.84 54.61 0)
+		(at 118.11 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3152,6 +3178,16 @@
 		)
 		(uuid "a2f2925d-451f-4c4c-86d9-adb416519c57")
 	)
+	(label "CompOut2"
+		(at 243.84 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba33f990-fa47-4c1b-8ac4-e012814f1d71")
+	)
 	(label "Sense+1"
 		(at 106.68 34.29 180)
 		(effects
@@ -3163,7 +3199,7 @@
 		(uuid "bb34491a-1e1a-43e2-a2e9-6f86ac6a8d4a")
 	)
 	(label "12V2"
-		(at 275.59 43.18 0)
+		(at 262.89 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3202,6 +3238,16 @@
 		)
 		(uuid "de45716e-c04b-415e-88a0-2ff0b0b33bc4")
 	)
+	(label "5VRef"
+		(at 184.15 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e13fbdf1-81c3-4c04-a1df-f25e0d7df146")
+	)
 	(label "12V1"
 		(at 118.11 27.94 0)
 		(effects
@@ -3223,9 +3269,31 @@
 		)
 		(uuid "0280f460-7e50-4172-8d81-2c896cf8695e")
 	)
+	(hierarchical_label "Sense+1"
+		(shape output)
+		(at 106.68 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "34856aea-4d1d-46f1-bb67-0c97c89389c8")
+	)
+	(hierarchical_label "Sense+2"
+		(shape output)
+		(at 106.68 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3f22fe3f-8ef4-4b03-8c51-e2aaf88e9b4b")
+	)
 	(hierarchical_label "48V2"
 		(shape input)
-		(at 24.13 54.61 90)
+		(at 15.24 54.61 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3233,6 +3301,28 @@
 			(justify left)
 		)
 		(uuid "70ea4138-8219-43ae-bb73-b33b55cd79f3")
+	)
+	(hierarchical_label "Sense-1"
+		(shape output)
+		(at 106.68 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77af4ca5-3da5-4f54-9275-fb97df0bcd1a")
+	)
+	(hierarchical_label "Sense-2"
+		(shape output)
+		(at 106.68 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7f203374-0981-4e5e-af7a-8808639f0958")
 	)
 	(hierarchical_label "12V2"
 		(shape output)
@@ -3247,7 +3337,7 @@
 	)
 	(hierarchical_label "48V1"
 		(shape input)
-		(at 24.13 29.21 90)
+		(at 15.24 29.21 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3301,7 +3391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00f5de99-ece1-4735-919e-ce9390299fdd")
-		(property "Reference" "R?"
+		(property "Reference" "R11"
 			(at 186.69 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3365,15 +3455,15 @@
 		(instances
 			(project "Distribution"
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/1e623c4e-5db9-44d1-83db-ee2476958c85"
-					(reference "R?")
+					(reference "R57")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/840694b0-e314-4f7e-a89b-dc5544faafbd"
-					(reference "R?")
+					(reference "R11")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/975c4860-e403-43a7-8290-7150e1d4325d"
-					(reference "R?")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -3477,7 +3567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08a7f05b-43f1-4c66-a2d2-69ede1699b10")
-		(property "Reference" "PS?"
+		(property "Reference" "PS2"
 			(at 55.88 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3619,15 +3709,15 @@
 		(instances
 			(project "Distribution"
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/1e623c4e-5db9-44d1-83db-ee2476958c85"
-					(reference "PS?")
+					(reference "PS9")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/840694b0-e314-4f7e-a89b-dc5544faafbd"
-					(reference "PS?")
+					(reference "PS2")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/975c4860-e403-43a7-8290-7150e1d4325d"
-					(reference "PS?")
+					(reference "PS7")
 					(unit 1)
 				)
 			)
@@ -3732,7 +3822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c6a6b53-6e69-4d72-9390-6d9fb57a636d")
-		(property "Reference" "R?"
+		(property "Reference" "R10"
 			(at 186.69 21.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3796,15 +3886,15 @@
 		(instances
 			(project "Distribution"
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/1e623c4e-5db9-44d1-83db-ee2476958c85"
-					(reference "R?")
+					(reference "R56")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/840694b0-e314-4f7e-a89b-dc5544faafbd"
-					(reference "R?")
+					(reference "R10")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/975c4860-e403-43a7-8290-7150e1d4325d"
-					(reference "R?")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -3822,7 +3912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f5b15ac-4649-48d0-90c9-4cf8b1f1dfa0")
-		(property "Reference" "R?"
+		(property "Reference" "R8"
 			(at 172.72 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3884,15 +3974,15 @@
 		(instances
 			(project "Distribution"
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/1e623c4e-5db9-44d1-83db-ee2476958c85"
-					(reference "R?")
+					(reference "R54")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/840694b0-e314-4f7e-a89b-dc5544faafbd"
-					(reference "R?")
+					(reference "R8")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/975c4860-e403-43a7-8290-7150e1d4325d"
-					(reference "R?")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -4159,7 +4249,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 274.32 74.93 0)
+		(at 261.62 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4169,8 +4259,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2af48537-f5eb-4650-be22-a87f0046064f")
-		(property "Reference" "R?"
-			(at 276.86 73.6599 0)
+		(property "Reference" "R14"
+			(at 264.16 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4181,7 +4271,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 276.86 76.1999 0)
+			(at 264.16 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4192,7 +4282,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 275.336 75.184 90)
+			(at 262.636 73.914 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4203,7 +4293,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 74.93 0)
+			(at 261.62 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4214,7 +4304,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 274.32 74.93 0)
+			(at 261.62 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4233,15 +4323,15 @@
 		(instances
 			(project "Distribution"
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/1e623c4e-5db9-44d1-83db-ee2476958c85"
-					(reference "R?")
+					(reference "R60")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/840694b0-e314-4f7e-a89b-dc5544faafbd"
-					(reference "R?")
+					(reference "R14")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/975c4860-e403-43a7-8290-7150e1d4325d"
-					(reference "R?")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -4249,7 +4339,7 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NMOS")
-		(at 271.78 83.82 0)
+		(at 259.08 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4259,8 +4349,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d19bac8-2a14-43e9-bde4-6c331033ba7a")
-		(property "Reference" "Q?"
-			(at 278.13 82.5499 0)
+		(property "Reference" "Q1"
+			(at 265.43 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4271,7 +4361,7 @@
 			)
 		)
 		(property "Value" "Q_NMOS"
-			(at 278.13 85.0899 0)
+			(at 265.43 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4282,7 +4372,7 @@
 			)
 		)
 		(property "Footprint" "UROVConverter:TO-236AB_SOT23_NEX"
-			(at 276.86 81.28 0)
+			(at 264.16 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4293,7 +4383,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 83.82 0)
+			(at 259.08 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4304,7 +4394,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor"
-			(at 271.78 83.82 0)
+			(at 259.08 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4326,15 +4416,15 @@
 		(instances
 			(project "Distribution"
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/1e623c4e-5db9-44d1-83db-ee2476958c85"
-					(reference "Q?")
+					(reference "Q7")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/840694b0-e314-4f7e-a89b-dc5544faafbd"
-					(reference "Q?")
+					(reference "Q1")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/975c4860-e403-43a7-8290-7150e1d4325d"
-					(reference "Q?")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -4437,7 +4527,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "338cdc2a-d5f0-4090-96e6-a7233825476b")
-		(property "Reference" "R?"
+		(property "Reference" "R7"
 			(at 147.32 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4499,15 +4589,15 @@
 		(instances
 			(project "Distribution"
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/1e623c4e-5db9-44d1-83db-ee2476958c85"
-					(reference "R?")
+					(reference "R53")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/840694b0-e314-4f7e-a89b-dc5544faafbd"
-					(reference "R?")
+					(reference "R7")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/975c4860-e403-43a7-8290-7150e1d4325d"
-					(reference "R?")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -4515,7 +4605,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 274.32 88.9 0)
+		(at 261.62 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4526,7 +4616,7 @@
 		(fields_autoplaced yes)
 		(uuid "36c0c442-5a36-4f88-854f-ca8ba2487cc2")
 		(property "Reference" "#PWR017"
-			(at 274.32 95.25 0)
+			(at 261.62 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4537,7 +4627,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 274.32 93.98 0)
+			(at 261.62 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4547,7 +4637,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 274.32 88.9 0)
+			(at 261.62 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4558,7 +4648,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 88.9 0)
+			(at 261.62 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4569,7 +4659,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 274.32 88.9 0)
+			(at 261.62 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4611,7 +4701,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3f198da5-000b-4bd5-93c2-35a698ab4129")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 163.83 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4691,15 +4781,15 @@
 		(instances
 			(project "Distribution"
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/1e623c4e-5db9-44d1-83db-ee2476958c85"
-					(reference "U?")
+					(reference "U7")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/840694b0-e314-4f7e-a89b-dc5544faafbd"
-					(reference "U?")
+					(reference "U1")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/975c4860-e403-43a7-8290-7150e1d4325d"
-					(reference "U?")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -4717,7 +4807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "417f1fd5-f997-48cc-8e1b-40b9ddff8ce5")
-		(property "Reference" "R?"
+		(property "Reference" "R5"
 			(at 146.05 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4779,15 +4869,15 @@
 		(instances
 			(project "Distribution"
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/1e623c4e-5db9-44d1-83db-ee2476958c85"
-					(reference "R?")
+					(reference "R51")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/840694b0-e314-4f7e-a89b-dc5544faafbd"
-					(reference "R?")
+					(reference "R5")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/975c4860-e403-43a7-8290-7150e1d4325d"
-					(reference "R?")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -4795,7 +4885,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 116.84 66.04 0)
+		(at 118.11 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4805,8 +4895,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4213224c-8790-4fa7-98c4-64e95e52b673")
-		(property "Reference" "R?"
-			(at 119.38 64.7699 0)
+		(property "Reference" "R2"
+			(at 120.65 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4817,7 +4907,7 @@
 			)
 		)
 		(property "Value" "5k"
-			(at 119.38 67.3099 0)
+			(at 120.65 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4828,7 +4918,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 117.856 66.294 90)
+			(at 119.126 66.294 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4839,7 +4929,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 66.04 0)
+			(at 118.11 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4850,7 +4940,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 116.84 66.04 0)
+			(at 118.11 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4869,15 +4959,15 @@
 		(instances
 			(project "Distribution"
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/1e623c4e-5db9-44d1-83db-ee2476958c85"
-					(reference "R?")
+					(reference "R48")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/840694b0-e314-4f7e-a89b-dc5544faafbd"
-					(reference "R?")
+					(reference "R2")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/975c4860-e403-43a7-8290-7150e1d4325d"
-					(reference "R?")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -4885,7 +4975,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 266.7 27.94 0)
+		(at 254 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4895,8 +4985,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4231b24e-1b15-44b0-a7cc-92172beae879")
-		(property "Reference" "R?"
-			(at 269.24 26.6699 0)
+		(property "Reference" "R13"
+			(at 256.54 25.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4907,7 +4997,7 @@
 			)
 		)
 		(property "Value" "5k"
-			(at 269.24 29.2099 0)
+			(at 256.54 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4918,7 +5008,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 267.716 28.194 90)
+			(at 255.016 26.924 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4929,7 +5019,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 27.94 0)
+			(at 254 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4940,7 +5030,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 266.7 27.94 0)
+			(at 254 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4959,15 +5049,15 @@
 		(instances
 			(project "Distribution"
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/1e623c4e-5db9-44d1-83db-ee2476958c85"
-					(reference "R?")
+					(reference "R59")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/840694b0-e314-4f7e-a89b-dc5544faafbd"
-					(reference "R?")
+					(reference "R13")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/975c4860-e403-43a7-8290-7150e1d4325d"
-					(reference "R?")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -4975,7 +5065,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 275.59 46.99 0)
+		(at 262.89 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4985,8 +5075,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56c60788-5cb6-4703-844e-8eda406eb4a1")
-		(property "Reference" "R?"
-			(at 278.13 45.7199 0)
+		(property "Reference" "R15"
+			(at 265.43 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4997,7 +5087,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 278.13 48.2599 0)
+			(at 265.43 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5008,7 +5098,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 276.606 47.244 90)
+			(at 263.906 45.974 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5019,7 +5109,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 275.59 46.99 0)
+			(at 262.89 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5030,7 +5120,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 275.59 46.99 0)
+			(at 262.89 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5049,15 +5139,15 @@
 		(instances
 			(project "Distribution"
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/1e623c4e-5db9-44d1-83db-ee2476958c85"
-					(reference "R?")
+					(reference "R61")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/840694b0-e314-4f7e-a89b-dc5544faafbd"
-					(reference "R?")
+					(reference "R15")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/975c4860-e403-43a7-8290-7150e1d4325d"
-					(reference "R?")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -5075,7 +5165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a541f03-a094-4c47-a8d0-b027f42fdddb")
-		(property "Reference" "PS?"
+		(property "Reference" "PS1"
 			(at 55.88 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5217,15 +5307,15 @@
 		(instances
 			(project "Distribution"
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/1e623c4e-5db9-44d1-83db-ee2476958c85"
-					(reference "PS?")
+					(reference "PS8")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/840694b0-e314-4f7e-a89b-dc5544faafbd"
-					(reference "PS?")
+					(reference "PS1")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/975c4860-e403-43a7-8290-7150e1d4325d"
-					(reference "PS?")
+					(reference "PS3")
 					(unit 1)
 				)
 			)
@@ -5243,7 +5333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fe7d8f4-9a7f-4512-966d-925ac5bce3fb")
-		(property "Reference" "R?"
+		(property "Reference" "R9"
 			(at 172.72 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5305,101 +5395,15 @@
 		(instances
 			(project "Distribution"
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/1e623c4e-5db9-44d1-83db-ee2476958c85"
-					(reference "R?")
+					(reference "R55")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/840694b0-e314-4f7e-a89b-dc5544faafbd"
-					(reference "R?")
+					(reference "R9")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/975c4860-e403-43a7-8290-7150e1d4325d"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 200.66 26.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62b122ed-e51a-429f-9a14-ab1884207de6")
-		(property "Reference" "#FLG05"
-			(at 200.66 24.765 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 200.66 21.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 200.66 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c01196c4-1748-42de-9e0d-e819a43ee1ca")
-		)
-		(instances
-			(project "Distribution"
-				(path "/bd76a680-de3e-404c-becd-81d972c29905/1e623c4e-5db9-44d1-83db-ee2476958c85"
-					(reference "#FLG020")
-					(unit 1)
-				)
-				(path "/bd76a680-de3e-404c-becd-81d972c29905/840694b0-e314-4f7e-a89b-dc5544faafbd"
-					(reference "#FLG05")
-					(unit 1)
-				)
-				(path "/bd76a680-de3e-404c-becd-81d972c29905/975c4860-e403-43a7-8290-7150e1d4325d"
-					(reference "#FLG015")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -5579,7 +5583,7 @@
 	)
 	(symbol
 		(lib_id "Reference_Voltage:LM4040DBZ-5")
-		(at 266.7 35.56 90)
+		(at 254 34.29 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5589,8 +5593,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "738c199f-15c3-42bb-b727-737bc24f385f")
-		(property "Reference" "U?"
-			(at 269.24 34.2899 90)
+		(property "Reference" "U2"
+			(at 256.54 33.0199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5601,7 +5605,7 @@
 			)
 		)
 		(property "Value" "LM4040DBZ-5"
-			(at 269.24 36.8299 90)
+			(at 256.54 35.5599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5612,7 +5616,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 271.78 35.56 0)
+			(at 259.08 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5624,7 +5628,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm4040-n.pdf"
-			(at 266.7 35.56 0)
+			(at 254 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5636,7 +5640,7 @@
 			)
 		)
 		(property "Description" "5.000V Precision Micropower Shunt Voltage Reference, SOT-23"
-			(at 266.7 35.56 0)
+			(at 254 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5658,15 +5662,15 @@
 		(instances
 			(project "Distribution"
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/1e623c4e-5db9-44d1-83db-ee2476958c85"
-					(reference "U?")
+					(reference "U8")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/840694b0-e314-4f7e-a89b-dc5544faafbd"
-					(reference "U?")
+					(reference "U2")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/975c4860-e403-43a7-8290-7150e1d4325d"
-					(reference "U?")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -5770,7 +5774,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8127d8b9-c39d-4105-891c-96314657913e")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 162.56 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5850,15 +5854,15 @@
 		(instances
 			(project "Distribution"
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/1e623c4e-5db9-44d1-83db-ee2476958c85"
-					(reference "U?")
+					(reference "U7")
 					(unit 2)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/840694b0-e314-4f7e-a89b-dc5544faafbd"
-					(reference "U?")
+					(reference "U1")
 					(unit 2)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/975c4860-e403-43a7-8290-7150e1d4325d"
-					(reference "U?")
+					(reference "U5")
 					(unit 2)
 				)
 			)
@@ -5876,7 +5880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "838a60f4-785b-41d6-8428-f47b20df19b5")
-		(property "Reference" "R?"
+		(property "Reference" "R6"
 			(at 147.32 20.32 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5938,15 +5942,15 @@
 		(instances
 			(project "Distribution"
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/1e623c4e-5db9-44d1-83db-ee2476958c85"
-					(reference "R?")
+					(reference "R52")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/840694b0-e314-4f7e-a89b-dc5544faafbd"
-					(reference "R?")
+					(reference "R6")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/975c4860-e403-43a7-8290-7150e1d4325d"
-					(reference "R?")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -5964,7 +5968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a999cf9-a592-4435-820e-00debaabfea1")
-		(property "Reference" "C?"
+		(property "Reference" "C1"
 			(at 38.1 27.5589 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6028,15 +6032,15 @@
 		(instances
 			(project "Distribution"
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/1e623c4e-5db9-44d1-83db-ee2476958c85"
-					(reference "C?")
+					(reference "C17")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/840694b0-e314-4f7e-a89b-dc5544faafbd"
-					(reference "C?")
+					(reference "C1")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/975c4860-e403-43a7-8290-7150e1d4325d"
-					(reference "C?")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -6054,7 +6058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cd152a7-dbd5-4117-8999-7183b038d4c6")
-		(property "Reference" "J?"
+		(property "Reference" "J1"
 			(at 24.765 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6113,15 +6117,15 @@
 		(instances
 			(project "Distribution"
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/1e623c4e-5db9-44d1-83db-ee2476958c85"
-					(reference "J?")
+					(reference "J4")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/840694b0-e314-4f7e-a89b-dc5544faafbd"
-					(reference "J?")
+					(reference "J1")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/975c4860-e403-43a7-8290-7150e1d4325d"
-					(reference "J?")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6139,7 +6143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9299869c-1dc8-4abf-9eff-a2ed65f2c8e4")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 196.85 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6221,15 +6225,15 @@
 		(instances
 			(project "Distribution"
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/1e623c4e-5db9-44d1-83db-ee2476958c85"
-					(reference "U?")
+					(reference "U7")
 					(unit 3)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/840694b0-e314-4f7e-a89b-dc5544faafbd"
-					(reference "U?")
+					(reference "U1")
 					(unit 3)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/975c4860-e403-43a7-8290-7150e1d4325d"
-					(reference "U?")
+					(reference "U5")
 					(unit 3)
 				)
 			)
@@ -6247,7 +6251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "967e5e1d-a661-4b3e-9ac3-04c0318a3d5a")
-		(property "Reference" "C?"
+		(property "Reference" "C3"
 			(at 81.28 26.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6311,15 +6315,15 @@
 		(instances
 			(project "Distribution"
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/1e623c4e-5db9-44d1-83db-ee2476958c85"
-					(reference "C?")
+					(reference "C19")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/840694b0-e314-4f7e-a89b-dc5544faafbd"
-					(reference "C?")
+					(reference "C3")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/975c4860-e403-43a7-8290-7150e1d4325d"
-					(reference "C?")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6327,7 +6331,7 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NMOS")
-		(at 273.05 55.88 0)
+		(at 260.35 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6337,8 +6341,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "968318cc-3b9e-4cf3-b88b-0c5a0f9f3b9e")
-		(property "Reference" "Q?"
-			(at 279.4 54.6099 0)
+		(property "Reference" "Q2"
+			(at 266.7 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6349,7 +6353,7 @@
 			)
 		)
 		(property "Value" "Q_NMOS"
-			(at 279.4 57.1499 0)
+			(at 266.7 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6360,7 +6364,7 @@
 			)
 		)
 		(property "Footprint" "UROVConverter:TO-236AB_SOT23_NEX"
-			(at 278.13 53.34 0)
+			(at 265.43 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6371,7 +6375,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 55.88 0)
+			(at 260.35 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6382,7 +6386,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor"
-			(at 273.05 55.88 0)
+			(at 260.35 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6404,15 +6408,15 @@
 		(instances
 			(project "Distribution"
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/1e623c4e-5db9-44d1-83db-ee2476958c85"
-					(reference "Q?")
+					(reference "Q8")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/840694b0-e314-4f7e-a89b-dc5544faafbd"
-					(reference "Q?")
+					(reference "Q2")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/975c4860-e403-43a7-8290-7150e1d4325d"
-					(reference "Q?")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -6420,7 +6424,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 266.7 39.37 0)
+		(at 254 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6431,7 +6435,7 @@
 		(fields_autoplaced yes)
 		(uuid "96bf807c-eede-4528-8728-4b8d652babae")
 		(property "Reference" "#PWR016"
-			(at 266.7 45.72 0)
+			(at 254 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6442,7 +6446,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 266.7 44.45 0)
+			(at 254 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6452,7 +6456,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 39.37 0)
+			(at 254 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6463,7 +6467,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 39.37 0)
+			(at 254 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6474,7 +6478,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 266.7 39.37 0)
+			(at 254 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6602,7 +6606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "982d2bab-3197-43b4-8455-3567ca342839")
-		(property "Reference" "C?"
+		(property "Reference" "C4"
 			(at 81.28 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6666,15 +6670,15 @@
 		(instances
 			(project "Distribution"
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/1e623c4e-5db9-44d1-83db-ee2476958c85"
-					(reference "C?")
+					(reference "C20")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/840694b0-e314-4f7e-a89b-dc5544faafbd"
-					(reference "C?")
+					(reference "C4")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/975c4860-e403-43a7-8290-7150e1d4325d"
-					(reference "C?")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -6682,7 +6686,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 116.84 58.42 0)
+		(at 118.11 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6692,8 +6696,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2060765-5d0b-4399-bc7b-9f5d390a387b")
-		(property "Reference" "R?"
-			(at 119.38 57.1499 0)
+		(property "Reference" "R1"
+			(at 120.65 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6704,7 +6708,7 @@
 			)
 		)
 		(property "Value" "7k"
-			(at 119.38 59.6899 0)
+			(at 120.65 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6715,7 +6719,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 117.856 58.674 90)
+			(at 119.126 58.674 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6726,7 +6730,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 58.42 0)
+			(at 118.11 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6737,7 +6741,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 116.84 58.42 0)
+			(at 118.11 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6756,15 +6760,15 @@
 		(instances
 			(project "Distribution"
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/1e623c4e-5db9-44d1-83db-ee2476958c85"
-					(reference "R?")
+					(reference "R47")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/840694b0-e314-4f7e-a89b-dc5544faafbd"
-					(reference "R?")
+					(reference "R1")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/975c4860-e403-43a7-8290-7150e1d4325d"
-					(reference "R?")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -6782,7 +6786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa8db057-8ab7-4c63-8498-c132b78e39e0")
-		(property "Reference" "R?"
+		(property "Reference" "R3"
 			(at 120.65 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6846,15 +6850,15 @@
 		(instances
 			(project "Distribution"
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/1e623c4e-5db9-44d1-83db-ee2476958c85"
-					(reference "R?")
+					(reference "R49")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/840694b0-e314-4f7e-a89b-dc5544faafbd"
-					(reference "R?")
+					(reference "R3")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/975c4860-e403-43a7-8290-7150e1d4325d"
-					(reference "R?")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -6872,7 +6876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab3551cc-3c8d-4143-983e-368a6deb9c56")
-		(property "Reference" "TH?"
+		(property "Reference" "TH1"
 			(at 220.98 32.0674 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6936,15 +6940,15 @@
 		(instances
 			(project "Distribution"
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/1e623c4e-5db9-44d1-83db-ee2476958c85"
-					(reference "TH?")
+					(reference "TH4")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/840694b0-e314-4f7e-a89b-dc5544faafbd"
-					(reference "TH?")
+					(reference "TH1")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/975c4860-e403-43a7-8290-7150e1d4325d"
-					(reference "TH?")
+					(reference "TH3")
 					(unit 1)
 				)
 			)
@@ -6952,7 +6956,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.84 69.85 0)
+		(at 118.11 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6963,7 +6967,7 @@
 		(fields_autoplaced yes)
 		(uuid "b48e17a5-3786-47fa-8cf8-2d9924861edc")
 		(property "Reference" "#PWR09"
-			(at 116.84 76.2 0)
+			(at 118.11 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6974,7 +6978,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 74.93 0)
+			(at 118.11 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6984,7 +6988,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 69.85 0)
+			(at 118.11 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6995,7 +6999,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 69.85 0)
+			(at 118.11 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7006,7 +7010,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 69.85 0)
+			(at 118.11 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7047,7 +7051,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b6bf9b17-f362-494f-9dd7-af93a6a175e2")
-		(property "Reference" "1k?"
+		(property "Reference" "1k2"
 			(at 146.05 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7109,15 +7113,15 @@
 		(instances
 			(project "Distribution"
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/1e623c4e-5db9-44d1-83db-ee2476958c85"
-					(reference "1k?")
+					(reference "1k4")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/840694b0-e314-4f7e-a89b-dc5544faafbd"
-					(reference "1k?")
+					(reference "1k2")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/975c4860-e403-43a7-8290-7150e1d4325d"
-					(reference "1k?")
+					(reference "1k3")
 					(unit 1)
 				)
 			)
@@ -7135,7 +7139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bab7dd43-88c7-455c-85ae-bacc07618c5d")
-		(property "Reference" "R?"
+		(property "Reference" "R4"
 			(at 120.65 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7199,15 +7203,101 @@
 		(instances
 			(project "Distribution"
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/1e623c4e-5db9-44d1-83db-ee2476958c85"
-					(reference "R?")
+					(reference "R50")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/840694b0-e314-4f7e-a89b-dc5544faafbd"
-					(reference "R?")
+					(reference "R4")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/975c4860-e403-43a7-8290-7150e1d4325d"
-					(reference "R?")
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 22.86 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcf94925-fc2b-402f-9fa1-5e2b9ac04acf")
+		(property "Reference" "#FLG015"
+			(at 22.86 29.845 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 22.86 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 22.86 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b0a8ba30-01d0-426c-a850-c37687cc42bd")
+		)
+		(instances
+			(project "Distribution"
+				(path "/bd76a680-de3e-404c-becd-81d972c29905/1e623c4e-5db9-44d1-83db-ee2476958c85"
+					(reference "#FLG021")
+					(unit 1)
+				)
+				(path "/bd76a680-de3e-404c-becd-81d972c29905/840694b0-e314-4f7e-a89b-dc5544faafbd"
+					(reference "#FLG015")
+					(unit 1)
+				)
+				(path "/bd76a680-de3e-404c-becd-81d972c29905/975c4860-e403-43a7-8290-7150e1d4325d"
+					(reference "#FLG020")
 					(unit 1)
 				)
 			)
@@ -7397,7 +7487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e57e028b-48b3-423a-af5a-b16b160c165a")
-		(property "Reference" "C?"
+		(property "Reference" "C2"
 			(at 38.1 55.4989 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7461,15 +7551,15 @@
 		(instances
 			(project "Distribution"
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/1e623c4e-5db9-44d1-83db-ee2476958c85"
-					(reference "C?")
+					(reference "C18")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/840694b0-e314-4f7e-a89b-dc5544faafbd"
-					(reference "C?")
+					(reference "C2")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/975c4860-e403-43a7-8290-7150e1d4325d"
-					(reference "C?")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -7649,7 +7739,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 275.59 60.96 0)
+		(at 262.89 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7660,7 +7750,7 @@
 		(fields_autoplaced yes)
 		(uuid "efa3111a-c75e-474e-a7c0-10a31ff14d47")
 		(property "Reference" "#PWR018"
-			(at 275.59 67.31 0)
+			(at 262.89 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7671,7 +7761,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 275.59 66.04 0)
+			(at 262.89 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7681,7 +7771,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 275.59 60.96 0)
+			(at 262.89 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7692,7 +7782,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 275.59 60.96 0)
+			(at 262.89 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7703,7 +7793,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 275.59 60.96 0)
+			(at 262.89 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7831,7 +7921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0bd1519-66e9-42b6-aebe-6c028042b26c")
-		(property "Reference" "R?"
+		(property "Reference" "R12"
 			(at 220.98 24.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7895,15 +7985,15 @@
 		(instances
 			(project "Distribution"
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/1e623c4e-5db9-44d1-83db-ee2476958c85"
-					(reference "R?")
+					(reference "R58")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/840694b0-e314-4f7e-a89b-dc5544faafbd"
-					(reference "R?")
+					(reference "R12")
 					(unit 1)
 				)
 				(path "/bd76a680-de3e-404c-becd-81d972c29905/975c4860-e403-43a7-8290-7150e1d4325d"
-					(reference "R?")
+					(reference "R43")
 					(unit 1)
 				)
 			)
