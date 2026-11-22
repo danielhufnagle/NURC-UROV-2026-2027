@@ -653,13 +653,29 @@
         "uuid": "bd76a680-de3e-404c-becd-81d972c29905"
       }
     ],
-    "used_designators": "Q2,C7-8,#PWR9,#PWR14-18,PS3,#FLG4-5,R2,R10-16",
+    "used_designators": "U1-4,TH1-2,J1-2,1k1-2,Q1-4,C1-16,#PWR1-63,PS1-6,#FLG1-20,R1-32",
     "variants": []
   },
   "sheets": [
     [
       "bd76a680-de3e-404c-becd-81d972c29905",
       "Root"
+    ],
+    [
+      "6a0cf1e9-47aa-4fd8-ba51-5e8905a1f2e2",
+      "48-12-5"
+    ],
+    [
+      "840694b0-e314-4f7e-a89b-dc5544faafbd",
+      "48-12-inst1"
+    ],
+    [
+      "975c4860-e403-43a7-8290-7150e1d4325d",
+      "48-12-inst2"
+    ],
+    [
+      "1e623c4e-5db9-44d1-83db-ee2476958c85",
+      "48-12-inst3"
     ]
   ],
   "text_variables": {},
