@@ -653,7 +653,7 @@
         "uuid": "bd76a680-de3e-404c-becd-81d972c29905"
       }
     ],
-    "used_designators": "R2,R10",
+    "used_designators": "Q2,C7-8,#PWR9,#PWR14-18,PS3,#FLG4-5,R2,R10-16",
     "variants": []
   },
   "sheets": [
