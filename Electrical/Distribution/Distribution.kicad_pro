@@ -650,7 +650,7 @@
         "uuid": "bd76a680-de3e-404c-becd-81d972c29905"
       }
     ],
-    "used_designators": "#FLG5,#FLG22-23",
+    "used_designators": "#PWR64-67,#FLG5,#FLG22-23",
     "variants": []
   },
   "sheets": [
